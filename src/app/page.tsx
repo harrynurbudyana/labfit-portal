@@ -1,15 +1,26 @@
+'use client'
 import Image from "next/image";
 import logolab from "@/assets/logolab.png"
 import simlab from "@/assets/simlab.png"
 import comingsoon from "@/assets/comingsoon.png"
+import Link from "next/link";
+import { SocialIcon } from "react-social-icons";
+// import Shortener from "@/app/shortUrl";
+// import { useRouter } from "next/router";
 
 export default function Home() {
+
   return (
-    <div className="sm:items-center lg:items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-base-200">
-      <main className="flex sm:flex-col gap-8 lg:items-center sm:items-center">
-        <Image src={logolab} width={200} height={200} alt=""/>
+    <div className="items-center justify-items-center min-h-screen gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-base-200">
+      <main className="flex flex-col gap-8 lg:items-center sm:items-center">
+        <div className="grid justify-items-center">
+        <Image src={logolab} width={200} height={200} alt="" className=""/> 
+        </div>
+        <div className="text-center">
         <div className="text-2xl justify-center sm:justify-items-center">Selamat datang di Portal Laboratorium Fakultas Ilmu Terapan</div>
-        <div className="flex sm:flex-col gap-8 lg:flex-row items-center">
+        </div>
+        <div>
+        <div className="flex flex-col lg:flex-row gap-8 items-center">
           <div className="card card-compact bg-base-100 w-96 shadow-xl">
             <figure className="image-full">
               <Image
@@ -27,16 +38,18 @@ export default function Home() {
             </div>
           </div>
           <div className="card card-compact bg-base-100 w-96 shadow-xl">
-            <figure>
+            <figure className="image-full">
               <Image
-                src={comingsoon}
-                alt="Shoes" />
+                src={simlab}
+                alt="Website" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h2 className="card-title">Website Laboratorium FIT</h2>
+              <p>Halaman Website Laboratorium FIT yang menyediakan informasi seputar laboratorium FIT.</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+                <button className="btn btn-primary">
+                  <a href="https://fit.labs.telkomuniversity.ac.id/" target="_blank">Kunjungi</a>
+                </button>
               </div>
             </div>
           </div>
@@ -44,18 +57,29 @@ export default function Home() {
             <figure className="image-full">
               <Image
                 src={comingsoon}
-                alt="Shoes" />
+                alt="Shortener" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
+              <h2 className="card-title">URL Shortener!</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+                <Link href={"/Shortener"}>
+                  <button className="btn btn-primary">Buy Now</button>
+                </Link>
               </div>
+            </div>
             </div>
           </div>
         </div>
       </main>
+      <footer className="mt-10">
+        <div className="flex items-center">Silakan Hubungi Kami!</div>
+        <div className="mt-5 grid grid-flow-col justify-items-center gap-3">
+          <SocialIcon url="https://www.instagram.com/lab.fit.telu" target="_blank"></SocialIcon>
+          <SocialIcon network="whatsapp" url="https://wa.me/6285172088181" target="_blank"></SocialIcon>
+          <SocialIcon network="email" url="mailto:lab@tass.telkomuniversity.ac.id" target="_blank"></SocialIcon>
+        </div>
+      </footer>
     </div>
   );
 }
