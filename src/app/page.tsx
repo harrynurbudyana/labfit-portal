@@ -1,4 +1,3 @@
-'use client'
 import Image from "next/image";
 import logolab from "@/assets/logolab.png"
 import simlab from "@/assets/simlab.png"
