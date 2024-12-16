@@ -32,9 +32,9 @@ export default function Home() {
               <h2 className="card-title">Simlabfit</h2>
               <p>Sistem Manajemen Laboratorium Fakultas Ilmu Terapan</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">
-                  <a href="https://sim.labfit.id" target="_blank">Kunjungi</a>
-                  </button>
+                <Link href="https://sim.labfit.id" target="_blank">
+                  <button className="btn btn-primary">Kunjungi</button>
+                </Link>
               </div>
             </div>
           </div>
@@ -50,9 +50,9 @@ export default function Home() {
               <h2 className="card-title">Website Laboratorium FIT</h2>
               <p>Halaman Website Laboratorium FIT yang menyediakan informasi seputar laboratorium FIT.</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">
-                  <a href="https://fit.labs.telkomuniversity.ac.id/" target="_blank">Kunjungi</a>
-                </button>
+                <Link href="https://fit.labs.telkomuniversity.ac.id" target="blank">
+                  <button className="btn btn-primary">Kunjungi</button>
+                </Link>
               </div>
             </div>
           </div>
