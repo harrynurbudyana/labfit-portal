@@ -15,7 +15,7 @@ export default function Home() {
     <div className="items-center justify-items-center min-h-screen gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-base-200">
       <main className="flex flex-col gap-8 lg:items-center sm:items-center">
         <div className="grid justify-items-center">
-        <Image src={logolab} width={200} height={200} alt="" className=""/> 
+        <Image src={logolab} width={400} height={400} alt="" className=""/> 
         </div>
         <div className="text-center">
         <div className="text-2xl justify-center sm:justify-items-center">Selamat datang di Portal Laboratorium Fakultas Ilmu Terapan</div>
@@ -63,8 +63,8 @@ export default function Home() {
                 alt="Shortener" />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">URL Shortener!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h2 className="card-title">Coming soon!</h2>
+              <p>Lorem Ipsum Dolor Sit Amet!</p>
               <div className="card-actions justify-end">
                 <Link href={"/Shortener"}>
                   <button className="btn btn-primary">Buy Now</button>
