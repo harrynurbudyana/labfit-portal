@@ -3,6 +3,7 @@ import Image from "next/image";
 import logolab from "@/assets/logolab.png"
 import simlab from "@/assets/simlab.png"
 import comingsoon from "@/assets/comingsoon.png"
+import websiteicon from "@/assets/website-icon.png"
 import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 // import Shortener from "@/app/shortUrl";
@@ -40,7 +41,9 @@ export default function Home() {
           <div className="card card-compact bg-base-100 w-96 shadow-xl">
             <figure className="image-full">
               <Image
-                src={simlab}
+                width={400}
+                height={100}
+                src={websiteicon}
                 alt="Website" />
             </figure>
             <div className="card-body">
