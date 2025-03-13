@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import logolab from "@/assets/logolab.png"
 import simlab from "@/assets/simlab.png"
@@ -5,10 +6,33 @@ import comingsoon from "@/assets/comingsoon.png"
 import websiteicon from "@/assets/website-icon.png"
 import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
+import { useState } from "react";
 // import Shortener from "@/app/shortUrl";
 // import { useRouter } from "next/router";
 
 export default function Home() {
+
+  const [showInput, setShowInput] = useState(false);
+  const [originalUrl, setOriginalUrl] = useState("");
+  const [customShortUrl, setCustomShortUrl] = useState("");
+  const [shortUrl, setShortUrl] = useState(null);
+  const [error, setError] = useState(null);
+  const handleShorten = async () => {
+        setError(null);
+        setShortUrl(null);
+        const response = await fetch("http://localhost:5000/shorten", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ originalUrl, customShortUrl: customShortUrl || undefined }),
+        });
+
+        const data = await response.json();
+        if (response.ok) {
+            setShortUrl(`http://localhost:5000/${data.shortUrl}`);
+        } else {
+            setError(data.error);
+        }
+    };
 
   return (
     <div className="items-center justify-items-center min-h-screen gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-base-200">
@@ -61,13 +85,21 @@ export default function Home() {
                 src={comingsoon}
                 alt="Shortener" />
             </figure>
-            <div className="card-body">
-              <h2 className="card-title">Coming soon!</h2>
-              <p>Lorem Ipsum Dolor Sit Amet!</p>
-              <div className="card-actions justify-end">
-                <Link href={"/Shortener"}>
-                  <button className="btn btn-primary">Buy Now</button>
-                </Link>
+            <div className="card-body text-center">
+              <h2 className="card-title">URL Shortener</h2>
+              <div className="card-actions justify-center">
+                <div className="text-center justify-center">
+                      <input type="grow" className="px-4 py-2.5 text-lg rounded-md mb-5" placeholder="Masukkan URL" value={originalUrl} onChange={(e) => setOriginalUrl(e.target.value)} />
+                      <input type="grow" className="px-4 py-2.5 text-lg rounded-md mb-5" placeholder="Custom Short URL" value={customShortUrl} onChange={(e) => setCustomShortUrl(e.target.value)} />
+                    </div>
+                    <button className="btn btn-primary" onClick={handleShorten}>Shorten</button>
+                      {error && <p className="text-red-500">{error}</p>}
+                      {shortUrl && (
+                        <div className="p-4 flex justify-between items-center w-full bg-gray-100 rounded-md text-black">
+                          <span>{shortUrl}</span>
+                          <button className="btn btn-primary" onClick={() => navigator.clipboard.writeText(shortUrl)}>Copy</button>
+                        </div>
+                      )}
               </div>
             </div>
             </div>
