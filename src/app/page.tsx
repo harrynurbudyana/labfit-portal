@@ -25,7 +25,7 @@ export default function Home() {
             <figure className="image-full">
               <Image
                 src={simlab}
-                alt="Shoes" />
+                alt="simlab" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">Simlabfit</h2>
