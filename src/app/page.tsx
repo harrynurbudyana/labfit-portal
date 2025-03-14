@@ -7,31 +7,29 @@ import websiteicon from "@/assets/website-icon.png"
 import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
 import { useState } from "react";
+// import { useRouter } from "next/router";
 // import Shortener from "@/app/shortUrl";
 // import { useRouter } from "next/router";
 
 export default function Home() {
 
-  const [showInput, setShowInput] = useState(false);
+  // const [showInput, setShowInput] = useState(false);
   const [originalUrl, setOriginalUrl] = useState("");
   const [customShortUrl, setCustomShortUrl] = useState("");
-  const [shortUrl, setShortUrl] = useState(null);
+  const [shortUrl, setShortUrl] = useState("");
   const [error, setError] = useState(null);
-  const handleShorten = async () => {
+  const handleShorten= async (e: React.FormEvent) => {
         setError(null);
-        setShortUrl(null);
-        const response = await fetch("http://localhost:5000/shorten", {
+        setShortUrl("");
+        const response = await fetch("/shorten", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ originalUrl, customShortUrl: customShortUrl || undefined }),
+            body: JSON.stringify({ originalUrl, customShortUrl}),
         });
 
         const data = await response.json();
-        if (response.ok) {
-            setShortUrl(`http://localhost:5000/${data.shortUrl}`);
-        } else {
-            setError(data.error);
-        }
+        if (data.error) alert(data.error);
+        else setShortUrl(`${window.location.origin}/${data.shortUrl}`);
     };
 
   return (
@@ -80,13 +78,13 @@ export default function Home() {
             </div>
           </div>
           <div className="card card-compact bg-base-100 w-96 shadow-xl">
-            <figure className="image-full">
+            {/* <figure className="image-full">
               <Image
                 src={comingsoon}
                 alt="Shortener" />
-            </figure>
+            </figure> */}
             <div className="card-body text-center">
-              <h2 className="card-title">URL Shortener</h2>
+              <h2 className="card-title justify-center">URL Shortener</h2>
               <div className="card-actions justify-center">
                 <div className="text-center justify-center">
                       <input type="grow" className="px-4 py-2.5 text-lg rounded-md mb-5" placeholder="Masukkan URL" value={originalUrl} onChange={(e) => setOriginalUrl(e.target.value)} />
