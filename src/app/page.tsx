@@ -77,7 +77,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-slate-600 card card-compact bg-base-100 w-96 shadow-xl">
+          <div className="bg-slate-600 card card-compact w-96 shadow-xl">
             {/* <figure className="image-full">
               <Image
                 src={comingsoon}
