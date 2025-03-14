@@ -77,14 +77,14 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="text-white bg-slate-600 card card-compact bg-base-100 w-96 shadow-xl">
+          <div className="bg-slate-600 card card-compact bg-base-100 w-96 shadow-xl">
             {/* <figure className="image-full">
               <Image
                 src={comingsoon}
                 alt="Shortener" />
             </figure> */}
             <div className="card-body text-center">
-              <h2 className="card-title justify-center">URL Shortener</h2>
+              <h2 className="card-title justify-center text-white">URL Shortener</h2>
               <div className="card-actions justify-center">
                 <div className="text-center justify-center">
                       <input type="grow" className="px-4 py-2.5 text-lg rounded-md mb-5" placeholder="Masukkan URL" value={originalUrl} onChange={(e) => setOriginalUrl(e.target.value)} />
