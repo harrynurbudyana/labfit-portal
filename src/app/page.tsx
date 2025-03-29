@@ -2,7 +2,7 @@
 import Image from "next/image";
 import logolab from "@/assets/logolab.png"
 import simlab from "@/assets/simlab.png"
-import comingsoon from "@/assets/comingsoon.png"
+// import comingsoon from "@/assets/comingsoon.png"
 import websiteicon from "@/assets/website-icon.png"
 import Link from "next/link";
 import { SocialIcon } from "react-social-icons";
@@ -18,7 +18,7 @@ export default function Home() {
   const [customShortUrl, setCustomShortUrl] = useState("");
   const [shortUrl, setShortUrl] = useState("");
   const [error, setError] = useState(null);
-  const handleShorten= async (e: React.FormEvent) => {
+  const handleShorten= async () => {
         setError(null);
         setShortUrl("");
         const response = await fetch("/shorten", {
