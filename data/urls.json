@@ -1,39 +1,39 @@
 [
-{"_id":{"$oid":"67d3a170463da7e3046b140b"},"original_url":"https://example.com","short_code":"abc123"}
-{"_id":{"$oid":"67d3a2884abe2c1b20766788"},"original_url":"https://forum.proxmox.com/threads/cpu-type-change-for-a-vm.91872/","short_code":"cpu"}
-{"_id":{"$oid":"67d3a2a94abe2c1b2076678c"},"original_url":"https://docs.google.com/forms/d/e/1FAIpQLSerdXJ7t3EwYhLloj-P9H6v7yhWZLpieUnUxn4-Jseu0bii2g/viewform?usp=header","short_code":"CobaIniYa"}
-{"_id":{"$oid":"67d3a66f4abe2c1b20766792"},"original_url":"https://forum.proxmox.com/threads/set-cpu-type-to-host-for-a-windows-vm-as-a-best-practice.136059/","short_code":"cpu2"}
-{"_id":{"$oid":"67d3a8294abe2c1b20766797"},"original_url":"https://linktr.ee/laboratoriumfit","short_code":"laboratoriumfit"}
-{"_id":{"$oid":"67d3acb92039dca4bfb319cc"},"original_url":"https://stackoverflow.com/questions/68742794/mongodb-failed-result-core-dump","short_code":"coredump"}
-{"_id":{"$oid":"67d3af2b62a4ff7b089d1854"},"original_url":"Didjdjdjjd","short_code":"Djdjjdjd"}
-{"_id":{"$oid":"67d3af8862a4ff7b089d1859"},"original_url":"djahsh","short_code":"shshsh"}
-{"_id":{"$oid":"67d3ede0e38fa011401ec059"},"original_url":"https://rekrutmenbersama2025.fhcibumn.id/login","short_code":"bumnn"}
-{"_id":{"$oid":"67e807fc99f4f240b91b53aa"},"original_url":"https://www.youtube.com/watch?v=J5K48tj7NaU","short_code":"testtttt"}
-{"_id":{"$oid":"67fc893699f4f240b91b5575"},"original_url":"asdasdasd","short_code":"asdasdasd"}
-{"_id":{"$oid":"67ff5e1370fa5e1b393abf9f"},"original_url":"https://drive.google.com/file/d/1euOJnkNgLe5M6zGSJGGaSjJlslFkVvon/view?usp=sharing","short_code":"Materi Sosialisasi Asprak Genap TA 2024/2025"}
-{"_id":{"$oid":"67ff5e2970fa5e1b393abfa2"},"original_url":"https://drive.google.com/file/d/1euOJnkNgLe5M6zGSJGGaSjJlslFkVvon/view?usp=sharing","short_code":"pptsosasprakgenap2425"}
-{"_id":{"$oid":"6800783d70fa5e1b393abfb6"},"original_url":"https://askubuntu.com/questions/1144825/add-network-printer-to-ubuntu-server-via-command-line-terminal","short_code":"test123"}
-{"_id":{"$oid":"681c15632840d8b9d7133320"},"original_url":"https://docs.google.com/spreadsheets/d/1FQx5u0VIB-pB_wIN_DB2iqY_jP0aH5NO/edit?usp=sharing&ouid=105426695347734839707&rtpof=true&sd=true","short_code":"daftarnamalabfit24"}
-{"_id":{"$oid":"681c2cab2840d8b9d7133364"},"original_url":"https://drive.google.com/drive/folders/1T7w7IREscPa5l5ajAJusJj9SOwyXoy1P?usp=sharing","short_code":"fotoruanglabfit"}
-{"_id":{"$oid":"681e28352840d8b9d71333b2"},"original_url":"https://www.st.com/resource/en/flyer/flstm32f469.pdf","short_code":"stm"}
-{"_id":{"$oid":"6825338e162c2536e8c8dac0"},"original_url":"https://cloud.labfit.id/index.php/apps/files/files/284?dir=/&opendetails=true","short_code":"docs"}
-{"_id":{"$oid":"68258c61162c2536e8c8dad8"},"original_url":"https://cloud.labfit.id/index.php/s/EHZFN4ECXA9qHWc","short_code":"TA-Mhs"}
-{"_id":{"$oid":"682753bb162c2536e8c8daf3"},"original_url":"https://cloud.labfit.id/index.php/s/4nXpHi99RLbgXbz","short_code":"labfitCloud"}
-{"_id":{"$oid":"6833dc01162c2536e8c8db9f"},"original_url":"https://docs.google.com/forms/d/e/1FAIpQLSco3NIR2yighyziJL7l6fes6HdUPuNg5QdZ9wRHZhC529Cv4Q/viewform?usp=dialog","short_code":"DaftarAslabPH2025"}
-{"_id":{"$oid":"683437d3162c2536e8c8dbda"},"original_url":"https://docs.google.com/spreadsheets/d/1lgEy5tQF4LIcbOvSMr6LerlmZVLJGTBlGbZRDTS6OoQ/edit?usp=sharing","short_code":"komponenTubesSisken"}
-{"_id":{"$oid":"68343c18162c2536e8c8dbde"},"original_url":"https://docs.google.com/spreadsheets/d/1lgEy5tQF4LIcbOvSMr6LerlmZVLJGTBlGbZRDTS6OoQ/edit?gid=44132349#gid=44132349","short_code":"KomponenTubesSisken"}
-{"_id":{"$oid":"68343c2b162c2536e8c8dbe2"},"original_url":"https://docs.google.com/spreadsheets/d/1lgEy5tQF4LIcbOvSMr6LerlmZVLJGTBlGbZRDTS6OoQ/edit?gid=44132349#gid=44132349","short_code":"KomponenTubesSisken2"}
-{"_id":{"$oid":"68343fcb162c2536e8c8dbe6"},"original_url":"https://forms.gle/YhtYucLPSTj4BhTCA","short_code":"formPeminjamanSisken"}
-{"_id":{"$oid":"6834460d162c2536e8c8dbed"},"original_url":"https://youtube.com/@lyliagamin9?si=qLgqxr_fqunR8WHQ","short_code":"LyliaGaming"}
-{"_id":{"$oid":"684405b2f859b05549abcd6e"},"original_url":"https://drive.google.com/drive/folders/1T7w7IREscPa5l5ajAJusJj9SOwyXoy1P","short_code":"drive-contoh"}
-{"_id":{"$oid":"6848e448f859b05549abce0b"},"original_url":"https://docs.google.com/forms/d/e/1FAIpQLSePhINdjMLRBK72cV-TX4hGh0hCp2xhU3fpp9ezj3MtKDUnnA/viewform?usp=dialog","short_code":"DaftarAslabD3TT25"}
-{"_id":{"$oid":"684d6e9ef859b05549abce8b"},"original_url":"https://docs.google.com/spreadsheets/d/1YQCCk3TY7fqAlObSTFiHKCRtFvLRrI_n/edit?usp=sharing&ouid=105426695347734839707&rtpof=true&sd=true","short_code":"BPJ-na"}
-{"_id":{"$oid":"684d6eaaf859b05549abce8e"},"original_url":"https://docs.google.com/spreadsheets/d/1YQCCk3TY7fqAlObSTFiHKCRtFvLRrI_n/edit?usp=sharing&ouid=105426695347734839707&rtpof=true&sd=true","short_code":"M7IYJ5"}
-{"_id":{"$oid":"68523b14bc74d7b588ceedbc"},"original_url":"https://drive.google.com/file/d/1Rp_LWVlQrmFubeTrEXA0-GH_UIqeKd9B/view?usp=sharing","short_code":"muCl0u"}
-{"_id":{"$oid":"68523b91bc74d7b588ceedbf"},"original_url":"https://drive.google.com/file/d/1Rp_LWVlQrmFubeTrEXA0-GH_UIqeKd9B/view?usp=sharing","short_code":"p2c2Kg"}
-{"_id":{"$oid":"68523bcabc74d7b588ceedc2"},"original_url":"https://drive.google.com/file/d/131C9bKcI9R5HcIW7uTvH_rmOCDaSF1VH/view?usp=sharing","short_code":"X8VDWr"}
-{"_id":{"$oid":"68523bf5bc74d7b588ceedc5"},"original_url":"https://drive.google.com/file/d/1aDJ7yXIB7oOTINs6U4Ws3gGDae88Xxqk/view?usp=sharing","short_code":"ikQsDM"}
-{"_id":{"$oid":"68523c1fbc74d7b588ceedc8"},"original_url":"https://drive.google.com/file/d/1qitB27hTfVTSRtfkByhCaipjSaHpWZ_-/view?usp=sharing","short_code":"eJskIH"}
-{"_id":{"$oid":"68523ed9bc74d7b588ceedd1"},"original_url":"https://drive.google.com/file/d/1tbhN25SuCfzaYMdURUJNfnzy2y_9J0kp/view?usp=sharing","short_code":"498pwm"}
-{"_id":{"$oid":"685b9cfb14fe10c6a8319a8d"},"original_url":"https://askubuntu.com/questions/1327486/how-do-i-set-a-static-ip-in-ubuntu-server-20-04","short_code":"tes234"}
+    {"_id":{"$oid":"67d3a170463da7e3046b140b"},"original_url":"https://example.com","short_code":"abc123"}
+    {"_id":{"$oid":"67d3a2884abe2c1b20766788"},"original_url":"https://forum.proxmox.com/threads/cpu-type-change-for-a-vm.91872/","short_code":"cpu"}
+    {"_id":{"$oid":"67d3a2a94abe2c1b2076678c"},"original_url":"https://docs.google.com/forms/d/e/1FAIpQLSerdXJ7t3EwYhLloj-P9H6v7yhWZLpieUnUxn4-Jseu0bii2g/viewform?usp=header","short_code":"CobaIniYa"}
+    {"_id":{"$oid":"67d3a66f4abe2c1b20766792"},"original_url":"https://forum.proxmox.com/threads/set-cpu-type-to-host-for-a-windows-vm-as-a-best-practice.136059/","short_code":"cpu2"}
+    {"_id":{"$oid":"67d3a8294abe2c1b20766797"},"original_url":"https://linktr.ee/laboratoriumfit","short_code":"laboratoriumfit"}
+    {"_id":{"$oid":"67d3acb92039dca4bfb319cc"},"original_url":"https://stackoverflow.com/questions/68742794/mongodb-failed-result-core-dump","short_code":"coredump"}
+    {"_id":{"$oid":"67d3af2b62a4ff7b089d1854"},"original_url":"Didjdjdjjd","short_code":"Djdjjdjd"}
+    {"_id":{"$oid":"67d3af8862a4ff7b089d1859"},"original_url":"djahsh","short_code":"shshsh"}
+    {"_id":{"$oid":"67d3ede0e38fa011401ec059"},"original_url":"https://rekrutmenbersama2025.fhcibumn.id/login","short_code":"bumnn"}
+    {"_id":{"$oid":"67e807fc99f4f240b91b53aa"},"original_url":"https://www.youtube.com/watch?v=J5K48tj7NaU","short_code":"testtttt"}
+    {"_id":{"$oid":"67fc893699f4f240b91b5575"},"original_url":"asdasdasd","short_code":"asdasdasd"}
+    {"_id":{"$oid":"67ff5e1370fa5e1b393abf9f"},"original_url":"https://drive.google.com/file/d/1euOJnkNgLe5M6zGSJGGaSjJlslFkVvon/view?usp=sharing","short_code":"Materi Sosialisasi Asprak Genap TA 2024/2025"}
+    {"_id":{"$oid":"67ff5e2970fa5e1b393abfa2"},"original_url":"https://drive.google.com/file/d/1euOJnkNgLe5M6zGSJGGaSjJlslFkVvon/view?usp=sharing","short_code":"pptsosasprakgenap2425"}
+    {"_id":{"$oid":"6800783d70fa5e1b393abfb6"},"original_url":"https://askubuntu.com/questions/1144825/add-network-printer-to-ubuntu-server-via-command-line-terminal","short_code":"test123"}
+    {"_id":{"$oid":"681c15632840d8b9d7133320"},"original_url":"https://docs.google.com/spreadsheets/d/1FQx5u0VIB-pB_wIN_DB2iqY_jP0aH5NO/edit?usp=sharing&ouid=105426695347734839707&rtpof=true&sd=true","short_code":"daftarnamalabfit24"}
+    {"_id":{"$oid":"681c2cab2840d8b9d7133364"},"original_url":"https://drive.google.com/drive/folders/1T7w7IREscPa5l5ajAJusJj9SOwyXoy1P?usp=sharing","short_code":"fotoruanglabfit"}
+    {"_id":{"$oid":"681e28352840d8b9d71333b2"},"original_url":"https://www.st.com/resource/en/flyer/flstm32f469.pdf","short_code":"stm"}
+    {"_id":{"$oid":"6825338e162c2536e8c8dac0"},"original_url":"https://cloud.labfit.id/index.php/apps/files/files/284?dir=/&opendetails=true","short_code":"docs"}
+    {"_id":{"$oid":"68258c61162c2536e8c8dad8"},"original_url":"https://cloud.labfit.id/index.php/s/EHZFN4ECXA9qHWc","short_code":"TA-Mhs"}
+    {"_id":{"$oid":"682753bb162c2536e8c8daf3"},"original_url":"https://cloud.labfit.id/index.php/s/4nXpHi99RLbgXbz","short_code":"labfitCloud"}
+    {"_id":{"$oid":"6833dc01162c2536e8c8db9f"},"original_url":"https://docs.google.com/forms/d/e/1FAIpQLSco3NIR2yighyziJL7l6fes6HdUPuNg5QdZ9wRHZhC529Cv4Q/viewform?usp=dialog","short_code":"DaftarAslabPH2025"}
+    {"_id":{"$oid":"683437d3162c2536e8c8dbda"},"original_url":"https://docs.google.com/spreadsheets/d/1lgEy5tQF4LIcbOvSMr6LerlmZVLJGTBlGbZRDTS6OoQ/edit?usp=sharing","short_code":"komponenTubesSisken"}
+    {"_id":{"$oid":"68343c18162c2536e8c8dbde"},"original_url":"https://docs.google.com/spreadsheets/d/1lgEy5tQF4LIcbOvSMr6LerlmZVLJGTBlGbZRDTS6OoQ/edit?gid=44132349#gid=44132349","short_code":"KomponenTubesSisken"}
+    {"_id":{"$oid":"68343c2b162c2536e8c8dbe2"},"original_url":"https://docs.google.com/spreadsheets/d/1lgEy5tQF4LIcbOvSMr6LerlmZVLJGTBlGbZRDTS6OoQ/edit?gid=44132349#gid=44132349","short_code":"KomponenTubesSisken2"}
+    {"_id":{"$oid":"68343fcb162c2536e8c8dbe6"},"original_url":"https://forms.gle/YhtYucLPSTj4BhTCA","short_code":"formPeminjamanSisken"}
+    {"_id":{"$oid":"6834460d162c2536e8c8dbed"},"original_url":"https://youtube.com/@lyliagamin9?si=qLgqxr_fqunR8WHQ","short_code":"LyliaGaming"}
+    {"_id":{"$oid":"684405b2f859b05549abcd6e"},"original_url":"https://drive.google.com/drive/folders/1T7w7IREscPa5l5ajAJusJj9SOwyXoy1P","short_code":"drive-contoh"}
+    {"_id":{"$oid":"6848e448f859b05549abce0b"},"original_url":"https://docs.google.com/forms/d/e/1FAIpQLSePhINdjMLRBK72cV-TX4hGh0hCp2xhU3fpp9ezj3MtKDUnnA/viewform?usp=dialog","short_code":"DaftarAslabD3TT25"}
+    {"_id":{"$oid":"684d6e9ef859b05549abce8b"},"original_url":"https://docs.google.com/spreadsheets/d/1YQCCk3TY7fqAlObSTFiHKCRtFvLRrI_n/edit?usp=sharing&ouid=105426695347734839707&rtpof=true&sd=true","short_code":"BPJ-na"}
+    {"_id":{"$oid":"684d6eaaf859b05549abce8e"},"original_url":"https://docs.google.com/spreadsheets/d/1YQCCk3TY7fqAlObSTFiHKCRtFvLRrI_n/edit?usp=sharing&ouid=105426695347734839707&rtpof=true&sd=true","short_code":"M7IYJ5"}
+    {"_id":{"$oid":"68523b14bc74d7b588ceedbc"},"original_url":"https://drive.google.com/file/d/1Rp_LWVlQrmFubeTrEXA0-GH_UIqeKd9B/view?usp=sharing","short_code":"muCl0u"}
+    {"_id":{"$oid":"68523b91bc74d7b588ceedbf"},"original_url":"https://drive.google.com/file/d/1Rp_LWVlQrmFubeTrEXA0-GH_UIqeKd9B/view?usp=sharing","short_code":"p2c2Kg"}
+    {"_id":{"$oid":"68523bcabc74d7b588ceedc2"},"original_url":"https://drive.google.com/file/d/131C9bKcI9R5HcIW7uTvH_rmOCDaSF1VH/view?usp=sharing","short_code":"X8VDWr"}
+    {"_id":{"$oid":"68523bf5bc74d7b588ceedc5"},"original_url":"https://drive.google.com/file/d/1aDJ7yXIB7oOTINs6U4Ws3gGDae88Xxqk/view?usp=sharing","short_code":"ikQsDM"}
+    {"_id":{"$oid":"68523c1fbc74d7b588ceedc8"},"original_url":"https://drive.google.com/file/d/1qitB27hTfVTSRtfkByhCaipjSaHpWZ_-/view?usp=sharing","short_code":"eJskIH"}
+    {"_id":{"$oid":"68523ed9bc74d7b588ceedd1"},"original_url":"https://drive.google.com/file/d/1tbhN25SuCfzaYMdURUJNfnzy2y_9J0kp/view?usp=sharing","short_code":"498pwm"}
+    {"_id":{"$oid":"685b9cfb14fe10c6a8319a8d"},"original_url":"https://askubuntu.com/questions/1327486/how-do-i-set-a-static-ip-in-ubuntu-server-20-04","short_code":"tes234"}
 ]
