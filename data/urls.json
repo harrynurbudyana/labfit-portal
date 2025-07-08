@@ -1,3 +1,4 @@
+[
 {"_id":{"$oid":"67d3a170463da7e3046b140b"},"original_url":"https://example.com","short_code":"abc123"}
 {"_id":{"$oid":"67d3a2884abe2c1b20766788"},"original_url":"https://forum.proxmox.com/threads/cpu-type-change-for-a-vm.91872/","short_code":"cpu"}
 {"_id":{"$oid":"67d3a2a94abe2c1b2076678c"},"original_url":"https://docs.google.com/forms/d/e/1FAIpQLSerdXJ7t3EwYhLloj-P9H6v7yhWZLpieUnUxn4-Jseu0bii2g/viewform?usp=header","short_code":"CobaIniYa"}
@@ -35,3 +36,4 @@
 {"_id":{"$oid":"68523c1fbc74d7b588ceedc8"},"original_url":"https://drive.google.com/file/d/1qitB27hTfVTSRtfkByhCaipjSaHpWZ_-/view?usp=sharing","short_code":"eJskIH"}
 {"_id":{"$oid":"68523ed9bc74d7b588ceedd1"},"original_url":"https://drive.google.com/file/d/1tbhN25SuCfzaYMdURUJNfnzy2y_9J0kp/view?usp=sharing","short_code":"498pwm"}
 {"_id":{"$oid":"685b9cfb14fe10c6a8319a8d"},"original_url":"https://askubuntu.com/questions/1327486/how-do-i-set-a-static-ip-in-ubuntu-server-20-04","short_code":"tes234"}
+]
